@@ -1,0 +1,16 @@
+[strategy]
+fast_window = 10
+slow_window = 30
+
+[risk]
+max_position_fraction = 0.20
+target_annual_volatility = 0.10
+volatility_window = 20
+stop_loss_fraction = 0.05
+max_drawdown_fraction = 0.10
+
+[backtest]
+initial_cash = 100000.0
+commission_bps = 1.0
+slippage_bps = 5.0
+bars_per_year = 252
